@@ -92,7 +92,7 @@ If something doesn't work and your config matches the solution, it's probably Pa
 
 ### Some configurations are questionable
 
-Some design choices in this lab are questionable. That's on purpose, because I'm evil like that. 😈 Spotting what you'd do differently in a real network is part of the exercise.
+Some design choices in this lab are questionable. That's on purpose, because I'm evil :3 Spotting what you'd do differently in a real network is part of the exercise.
 
 ### How this was made
 
