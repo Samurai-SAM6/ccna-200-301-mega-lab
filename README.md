@@ -83,7 +83,7 @@ Practise them separately, or add them to the lab yourself as an extra challenge.
 
 Packet Tracer is a simulator, not real IOS, and it has **a lot** of bugs and missing features. Some of them can break this lab:
 
-- **DHCP Snooping and DAI**: with snooping enabled, Packet Tracer 9.0.1 drops relayed DHCP replies over EtherChannels and trunks, even after a reload. Both features were removed from the lab because of this (see the Rev 3 change log in the workbook).
+- **DHCP Snooping and DAI**: with snooping enabled, Packet Tracer 9.0.1 drops relayed DHCP replies over EtherChannels and trunks, even after a reload. Both features were removed from the lab because of this.
 - **Stale DHCP state**: if PCs stop getting leases after many changes, save, fully close Packet Tracer, reopen it and renew.
 - **Unsupported commands**: e.g. `ntp source` doesn't exist, and `ip ospf network point-to-point` is ignored on VLAN interfaces.
 - **Hardware quirks**: the ISR 4331 has no NIM-2GE, the NIM-ES2-4 ports are Layer 2 only, and 3650 port-channels need `switchport trunk encapsulation dot1q` before `switchport mode trunk`.
